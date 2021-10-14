@@ -1,0 +1,11 @@
+@relation iris
+
+@attribute f1 numeric
+@attribute f2 numeric
+@attribute f3 numeric
+@attribute f4 numeric
+@attribute targetclass {Iris-setosa,Iris-versicolor,Iris-virginica}
+
+@data
+6.6,2.9,4.6,1.3,Iris-virginica
+5.2,2.7,3.9,1.4,Iris-virginica
