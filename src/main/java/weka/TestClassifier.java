@@ -33,7 +33,7 @@ public class TestClassifier {
 		// train and make predictions
 		fc.buildClassifier(train);
 		
-		System.out.println("=== my outputs ===");
+		System.out.println("=== my outputs here ===");
 		for (int i = 0; i < test.numInstances(); i++) {
 			double pred = fc.classifyInstance(test.instance(i));
 			System.out.print("ID: " + test.instance(i).value(0));
@@ -43,7 +43,7 @@ public class TestClassifier {
 
 		
 		//System.out.println(data.toString());
-		System.out.println("=== end ===");
+		System.out.println("=== end here ===");
 
 	}
 
